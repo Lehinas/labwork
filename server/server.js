@@ -17,7 +17,7 @@ app.use(fileUpload({
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://lehinas-labwork.netlify.app",
+    origin: "http://localhost:3000",
     credentials: true,
 }))
 
