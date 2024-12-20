@@ -9,7 +9,7 @@ const Navbar = () => {
 	const user = useSelector(state => state.user.currentUser)
 	return (
 		<header className={styles.header}>
-			<Link className={styles.logo}>GameStore.KZ</Link>
+			<Link to={"/main"} className={styles.logo}>GameStore.KZ</Link>
 			<nav className={styles.container}>
 				<ul className={styles.navList}>
 					<li><Link to={"/main"}>Home</Link></li>
