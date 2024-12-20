@@ -7,8 +7,6 @@ const config = require("config")
 const { authRouter } = require("./routes/authRoutes")
 const { apiErrorMiddleware } = require("./middlewares/apiErrorMiddleware")
 const { fileRouter } = require("./routes/fileRoutes")
-const { initFiles } = require("./utils/initFiles")
-initFiles(["uploads", "files"]) // создание директории(и папок внутри) для хранения пользовательских приколов
 
 const app = express()
 
