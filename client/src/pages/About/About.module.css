@@ -1,0 +1,247 @@
+/* About.module.css */
+.abc{
+    background: linear-gradient(180deg, #010000, #1F1000);
+}
+/* Section Styles */
+.section {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    gap: 30px;
+}
+
+.textContent {
+    max-width: 50%;
+}
+
+.textContent h1 {
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.textContent p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #aaa;
+}
+
+.textContent button {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imageContent img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Why work with us Section */
+.cardsSection {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cardsSection h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.card span {
+    display: inline-block;
+    background-color: #6c5ce7;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #aaa;
+    line-height: 1.5;
+}
+
+.card.green span {
+    background-color: #27ae60;
+}
+
+.card.orange span {
+    background-color: #e67e22;
+}
+
+/* Subscribe Section */
+.subscribe {
+    padding: 50px 20px;
+    background-color: #111;
+    text-align: center;
+}
+
+.subscribe h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.subscribeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribeBox {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.subscribeBox h4 {
+    color: #ffa500;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.subscribeBox p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.subscribeBox form {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribeBox input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.subscribeBox button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribeBox button:hover {
+    background-color: #e69500;
+}
+
+/* Footer Section */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 30px 20px;
+    font-size: 0.9rem;
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footerSection {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footerSection h4 {
+    margin-bottom: 10px;
+    color: #ffa500;
+}
+
+.footerSection p,
+.footerSection ul {
+    color: #ccc;
+}
+
+.footerSection ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerSection ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+
+.footerSection ul li a:hover {
+    color: #ffa500;
+}
+
+.socialLinks a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socialLinks img {
+    width: 24px;
+    height: 24px;
+}
+
+.footerBottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #222;
+    padding-top: 10px;
+    color: #aaa;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    color: #4267B2;
+    font-size: 24px;
+}
+
+.socialLinks a:hover {
+    color: #365899;
+}

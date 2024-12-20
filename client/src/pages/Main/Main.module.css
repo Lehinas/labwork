@@ -1,0 +1,241 @@
+.main{
+    background: linear-gradient(180deg, #010000, #1F1000);
+
+}
+li{
+    list-style: none;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #000, #111);
+}
+
+.hero h2 {
+    color: #ffa500;
+    font-size: 4.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.gamepadBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamepadBtn img {
+    width: 100px;
+    height: 150px;
+    transform: rotate(65deg);
+}
+
+.gamepadBtn a:hover {
+    color: rgb(255, 247, 247);
+    transition: .2s ease-in;
+}
+
+.hero img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.hero .btnDetails {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.categories {
+    padding: 40px 20px;
+}
+
+.categories h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.categoriesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.categoryCard {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.categoryCard:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+
+.categoryCard img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+}
+
+.categoryCard h4 {
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.news {
+    margin-top: 200px;
+}
+
+.news h3 {
+    font-size: 42px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.newsText {
+    margin-left: 350px;
+}
+
+.newsText h4 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.newsText p {
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.newsImg {
+    display: flex;
+    justify-content: center;
+}
+
+.newsImg img {
+    height: 600px;
+    width: 1200px;
+}
+
+.projects {
+    padding: 50px 20px;
+    background-color: #111;
+}
+
+.projects h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.projects p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.projectsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projectCard {
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.projectCard:hover {
+    transform: scale(1.05);
+}
+
+.subscribe {
+    padding: 50px 20px;
+    background-color: #111;
+    text-align: center;
+}
+
+.subscribe h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.subscribeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribeBox {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.subscribeBox h4 {
+    color: #ffa500;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.subscribeBox p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.subscribeBox form {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribeBox input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.subscribeBox button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribeBox button:hover {
+    background-color: #e69500;
+}
+

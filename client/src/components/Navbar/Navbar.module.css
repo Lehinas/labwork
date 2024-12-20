@@ -1,0 +1,51 @@
+.header {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.user_avatar{
+    width: 36px;
+}
+.container {
+    /* Добавьте стили для контейнера в хедере */
+    display: flex;
+    gap: 35px;
+}
+
+.logo {
+    /* Добавьте стили для логотипа */
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navList {
+    /* Добавьте стили для списка навигации */
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.contactUs {
+    padding: 5px 15px;
+    background-color: #FA9021;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
